@@ -11,6 +11,7 @@ public class Cs1 {
 	public void test()
 	{
 		System.out.println("Learning non static method");
+		System.out.println("git testing");
 	}
 	
 	
