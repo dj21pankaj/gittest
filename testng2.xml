@@ -1,0 +1,24 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testSuiteNG.DoubleClass"> <!--single and double class combime-->
+       <methods>
+       <include name="TC7"/>
+         <include name="TC8"/>
+      </methods>
+       </class>
+      <class name="testSuiteNG.SingleClass">  <!--single and double class combime-->
+      <methods>
+       <include name="TC3"/> 
+       <include name="TC4"/> <!--include and exclude also use-->
+      </methods>
+      </class>
+      <class name="testNG.AnnotationStudy1"> <!--another package testNG method-->
+      <methods>
+      <include name="a"/>
+     </methods>
+     </class>
+    </classes>
+  </test> 
+</suite> 

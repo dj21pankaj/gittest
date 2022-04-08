@@ -1,0 +1,13 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testSuiteNG.SingleClass">
+      <methods>
+      <exclude name="TC1"/>
+      <exclude name="TC2"/>
+      </methods>
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
